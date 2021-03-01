@@ -11,6 +11,6 @@
 ## Exercise 2
 
 1. Declare a variable named userInput2 (or whatever topic you’ll ask about) and set the value to `window.prompt(“Whatever question you want to ask here”)`.<br>
-2. Inside of the parentheses ask a question on whatever (appropriate) topic you’d like.<br>
+2. Inside of the parentheses, ask a question on whatever (appropriate) topic you’d like.<br>
 3. Create a switch-case statement with 5+ cases and a default case.<br>
-4. Log a response to the console depending on the value of userInput.<br>
+4. Log a response to the console depending on the value of userInput2.<br>
