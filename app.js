@@ -3,7 +3,7 @@ console.log("Follow the steps in the README.md file to complete the exercises:\n
 
 // Exercise 1
 let rand = Math.floor(Math.random() * 100) + 1;
-let userInput = window.prompt("Pick a number between 1 and 100!");
+let userInput = window.prompt("Guess a number between 1 and 100.");
 
 if (userInput < rand) {
 	console.log("Too low!");
@@ -16,7 +16,7 @@ if (userInput < rand) {
 // Exercise 2
 let cheese = window.prompt("What's your favorite cheese?");
 
-switch (cheese) {
+switch (cheese.toLocaleLowerCase() /* The method will convert their input to lowercase*/) {
 	case "brie":
 		console.log("Brie is also nicknamed `The Queen of Cheeses`, great choice!");
 		break;
